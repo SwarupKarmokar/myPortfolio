@@ -1,5 +1,5 @@
 import React from 'react'
-import { LinkedinOutlined, GithubOutlined, MailOutlined } from '@ant-design/icons'
+import { LinkedinOutlined, GithubOutlined, MailOutlined, ArrowDownOutlined } from '@ant-design/icons'
 
 import './HomeStyle.css'
 
@@ -14,6 +14,9 @@ const Home = () => {
                     <MailOutlined onClick={() => window.open('mailto:swarupkarmokar123@gmail.com', '_blank')} />
                     <GithubOutlined onClick={() => window.open('https://github.com/SwarupKarmokar', '_blank')} />
                     <LinkedinOutlined onClick={() => window.open('https://www.linkedin.com/in/swarup-karmokar-68521816b/', '_blank')} />
+                </div>
+                <div className='prompt'>
+                    <ArrowDownOutlined />
                 </div>
             </div>
             <div className="skills">
